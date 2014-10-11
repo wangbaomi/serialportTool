@@ -80,6 +80,7 @@
             this.hisIP.Name = "hisIP";
             this.hisIP.Size = new System.Drawing.Size(100, 21);
             this.hisIP.TabIndex = 0;
+            this.hisIP.Text = "127.0.0.1";
             // 
             // label1
             // 
@@ -105,6 +106,7 @@
             this.hisPort.Name = "hisPort";
             this.hisPort.Size = new System.Drawing.Size(41, 21);
             this.hisPort.TabIndex = 3;
+            this.hisPort.Text = "8500";
             // 
             // startListen
             // 
@@ -114,6 +116,7 @@
             this.startListen.TabIndex = 4;
             this.startListen.Text = "监听本地端口";
             this.startListen.UseVisualStyleBackColor = true;
+            this.startListen.Click += new System.EventHandler(this.startListen_Click);
             // 
             // myPort
             // 
@@ -121,6 +124,7 @@
             this.myPort.Name = "myPort";
             this.myPort.Size = new System.Drawing.Size(41, 21);
             this.myPort.TabIndex = 8;
+            this.myPort.Text = "8502";
             // 
             // label3
             // 
@@ -146,6 +150,7 @@
             this.myIP.Name = "myIP";
             this.myIP.Size = new System.Drawing.Size(100, 21);
             this.myIP.TabIndex = 5;
+            this.myIP.Text = "127.0.0.1";
             // 
             // groupBox2
             // 
